@@ -1,7 +1,7 @@
 # Cloud Manager Troubleshooting Tips
 Debugging cloud manager issues
 
-# Issue: Cloud Manager - build fails in Cloud Manager but not on local maven build
+## Issue: Cloud Manager - build fails in Cloud Manager but not on local maven build
 1. Download the maven_build.log file from the Cloud Manager UI
 2. Extract the exact maven commands from the maven_build.log to run them on the local build:
 
