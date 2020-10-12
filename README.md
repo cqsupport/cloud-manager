@@ -12,3 +12,5 @@ Debugging cloud manager issues
         mvn --batch-mode de.qaware.maven:go-offline-maven-plugin:resolve-dependencies
         mvn --batch-mode org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean -Dmaven.clean.failOnError=false
         mvn --batch-mode org.jacoco:jacoco-maven-plugin:prepare-agent package -DcloudManagerOriginalVersion=0.0.1-SNAPSHOT
+
+3. Run those mvn commands on the local build and you should see the same failures as in the cloud manager build
