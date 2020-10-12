@@ -13,3 +13,9 @@
         mvn --batch-mode org.jacoco:jacoco-maven-plugin:prepare-agent package -DcloudManagerOriginalVersion=0.0.1-SNAPSHOT
 
 3. Run those mvn commands on the local build and you should see the same failures as in the cloud manager build
+
+### If build fails in Production and Stage pipelines but not in Dev
+
+* Production and Stage pipelines use the versions-maven-plugin to generate a version
+  * versions-maven-plugin documentation - [https://www.mojohaus.org/versions-maven-plugin/]
+  * Related [Cloud Manager documentation](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/managing-code/activating-maven-project.html)
