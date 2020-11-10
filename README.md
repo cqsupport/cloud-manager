@@ -10,7 +10,7 @@ The debug info below applies to both Adobe Managed Services (AMS) and AEM as a C
 ## AEM as a Cloud Service
 * [Known issues for AEM as a Cloud Service deployments](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/build-and-deployment.html)
 
-## "Product Functional Tests" (productTest) step fail
+### "Product Functional Tests" (productTest) step fail
 If the AEM as a Cloud deploy fails at "Product Functional Testing" step then follow the steps [here](https://github.com/adobe/aem-test-samples/blob/aem-cloud/README.md#run-the-test-against-your-aem-cloud-service-author-and-publish-tiers) to run the tests locally.
 
 Some tips for proper local testing:
