@@ -1,4 +1,4 @@
-## build step fails in Cloud Manager but not on local maven build
+## Build step fails in Cloud Manager but not on local maven build
 
 ### Extract the mvn commands from the maven_build.log
 1. Download the maven_build.log file from the Cloud Manager UI
