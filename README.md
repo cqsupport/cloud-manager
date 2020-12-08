@@ -7,6 +7,9 @@ The debug info below applies to both Adobe Managed Services (AMS) and AEM as a C
 ### build step fails
 * [Build fails in Cloud Manager but not on local maven build](cm-build-step-fails.md)
 
+### Code Quality check fails
+* [Code Quality check fails](cm-codeQuality-fail.md)
+
 ## AEM as a Cloud Service
 * [Known issues for AEM as a Cloud Service deployments](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/build-and-deployment.html)
 * [Deploy fails with "Access Denied" from forwardPublisherSubscriber](https://helpx.adobe.com/experience-manager/kb/cm/cloudmanager-deploy-fails-due-to-sling-distribution-aem.html)
