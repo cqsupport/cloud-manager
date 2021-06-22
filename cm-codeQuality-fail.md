@@ -6,18 +6,9 @@
 
 2. See [here for how to deal with false positives](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/understand-your-test-results.html?lang=en#dealing-with-false-positives)
 
-2. Otherwise, as a last resort you can ignore the code quality violations:
-   1.  The [```<sonar.exclusions>``` element](https://stackoverflow.com/questions/21425012/configure-sonar-to-exclude-files-from-maven-pom-xml) can be added to the pom.xml to bypass code quality failures that are false positives or deemed insignificant.
-       Example to exclude certain code from checking: 
-       ```
-       <properties>
-         <sonar.exclusions>**/org/my/custom/code/package/**/*</sonar.exclusions>
-       </properties>
-       ``` 
-   2. If you want to ignore specific rules it should be possible with `sonar-project.properties` see [here](https://www.baeldung.com/sonar-exclude-violations)
+3. Otherwise, as a last resort, you can ignore the code quality violations with attributes in the code. For example: `@SuppressWarnings("squid:S0016")`
 
-   3. It can also be done with attributes in the code. For example: `@SuppressWarnings("squid:S0016")`
-
+Note, other types of excludes defined in the maven pom files such as `<sonar.exclusions>` (and others documented in \[1] and \[2]) get automatically removed, so they will not work.
 
 \[1] https://stackoverflow.com/questions/39109228/how-can-we-ignore-some-sonarqube-rules-in-java
 
